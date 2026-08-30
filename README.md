@@ -1,4 +1,4 @@
-# <p align="center">đŸ›¸ Navi Multitool</p>
+# <p align="center">đŸ›¸ Nova Multitool</p>
 
 <p align="center">
   <a href="https://discord.gg/DFNP2VJKPW">
