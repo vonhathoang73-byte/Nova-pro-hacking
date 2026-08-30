@@ -127,10 +127,10 @@ This tool is developed for **educational and ethical security testing purposes o
 ---
 
 ## 🔗 Stay Connected
-- **Main Developer**: [glockinhand](https://github.com/glockinhand)
-- **Community Discord**: [Join the Server](https://discord.com/invite/4DFNP2VJKPW)
+- **Main Developer**: [Nova](https://github.com/vonhathoang73-byte)
+- **Community Discord**: [Join the Server](https://discord.gg/NjfSAAdn6W)
 
 <p align="center">
-  <i>"Present Day, Present Time... Hahaha!"</i>
+  <i>"bye bye bye.., i,m vonhathoang... Hahaha!"</i>
 </p>
 
