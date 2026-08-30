@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  <img src="img width="4344" height="1448" alt="Nova" src="https://github.com/user-attachments/assets/d19abd1e-a168-4689-b625-8154aa8fd633" alt="Nova Banner" width="100%">
+  <img src="https://github.com/user-attachments/assets/d19abd1e-a168-4689-b625-8154aa8fd633" alt="Nova Banner" width="100%">
 </p>
 
 <p align="center">
