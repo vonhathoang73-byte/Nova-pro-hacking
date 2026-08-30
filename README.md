@@ -1,7 +1,7 @@
  <p align="center">đŸ›¸ Nova Multitool</p>
 
 <p align="center">
-  <a href="https://discord.gg/DFNP2VJKPW">
+  <a href="https://discord.gg/NjfSAAdn6W">
     <img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Server">
   </a>
 </p>
