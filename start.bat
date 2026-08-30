@@ -1,0 +1,2 @@
+python Nova.py
+pause

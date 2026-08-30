@@ -1,0 +1,2 @@
+tkintermapview
+# tkinter itself is provided by the OS on desktop Linux; Termux normally has no Tk GUI.
