@@ -87,9 +87,9 @@
 Nova Pro offers a variety of themes to suit your aesthetic, including the new **Modern** series:
 
 <p align="center">
-  <img src="https://i.ibb.co/35hcVSy4/image1.png" width="24%" />
-  <img src="https://i.ibb.co/kVQCnQBz/image.png" width="24%" />
-  <img src="https://i.ibb.co/1YVCYYGM/image.png" width="24%" />
+  <img src="https://github.com/user-attachments/assets/cd20b41d-4294-4a86-93bf-b59441b4dab1" width="24%" />
+  <img src="https://github.com/user-attachments/assets/e8f08195-d95e-4d6e-83e0-3cef3508c5d4" width="24%" />
+  <img src="https://github.com/user-attachments/assets/cd20b41d-4294-4a86-93bf-b59441b4dab1" width="24%" />
   <img src="https://i.ibb.co/KjB7zKRm/image.png" width="24%" />
 </p>
 
