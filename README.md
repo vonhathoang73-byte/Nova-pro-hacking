@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://i.ibb.co/kg0R2k2H/image.png" alt="Navi Banner" width="100%">
+  <img src="https://i.ibb.co/zWcqWv3q/Nova.png" alt="Nova Banner" width="100%">
 </p>
 
 <p align="center">
