@@ -1,3 +1,4 @@
+<img width="4344" height="1448" alt="Nova" src="https://github.com/user-attachments/assets/d19abd1e-a168-4689-b625-8154aa8fd633" />
 # <p align="center">đŸ›¸ Nova Multitool</p>
 
 <p align="center">
