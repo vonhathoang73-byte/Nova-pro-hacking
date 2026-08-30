@@ -1,3 +1,4 @@
+
 <p align="center">🛸 Nova Pro Multitool</p>
 
 <p align="center">
@@ -90,7 +91,7 @@ Nova Pro offers a variety of themes to suit your aesthetic, including the new **
   <img src="https://github.com/user-attachments/assets/cd20b41d-4294-4a86-93bf-b59441b4dab1" width="24%" />
   <img src="https://github.com/user-attachments/assets/e8f08195-d95e-4d6e-83e0-3cef3508c5d4" width="24%" />
   <img src="https://github.com/user-attachments/assets/4ecadb17-0b99-4d90-a79f-86fc68ea9bc1" width="24%" />
-  <img src="https://i.ibb.co/KjB7zKRm/image.png" width="24%" />
+  <img src="https://github.com/user-attachments/assets/81403377-edfc-4ec7-93d7-4f85f7801344" width="24%" />
 </p>
 
 `Modern` | `Modern Red` | `Modern Purple` | `Rainbow` | `Blue` | `Red` | `Purple` | `Green` | `Yellow`
