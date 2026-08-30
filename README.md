@@ -107,7 +107,7 @@ Nova Pro offers a variety of themes to suit your aesthetic, including the new **
 ### Quick Start
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/vonhathoang73-byte/Nova-pro-hacking.git]
+    git clone https://github.com/vonhathoang73-byte/Nova-pro-hacking.git
     cd Nova-pro-hacking
     ```
 
