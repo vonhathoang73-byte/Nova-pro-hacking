@@ -106,17 +106,17 @@ Navi offers a variety of themes to suit your aesthetic, including the new **Mode
 ### Quick Start
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/glockinhand/navi-multitool.git
-    cd navi-multitool
+    git clone https://github.com/vonhathoang73-byte/Nova-pro-hacking.git
+    cd Nova-pro-hacking
     ```
 
 2.  **Run Installation**
-    - **Windows**: Just run `install.bat`
+    - **Windows**: Just run `setup.py`
     - **Linux/macOS**: `pip install -r requirements.txt`
 
 3.  **Launch**
     ```bash
-    python main.py
+    python Nova.py
     ```
 
 ---
