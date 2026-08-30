@@ -1,4 +1,4 @@
-# <p align="center">đŸ›¸ Nova Multitool</p>
+ <p align="center">đŸ›¸ Nova Multitool</p>
 
 <p align="center">
   <a href="https://discord.gg/DFNP2VJKPW">
@@ -74,11 +74,11 @@
 ## đŸ“¸ Interface Preview
 
 <p align="center">
-  <img src="https://i.ibb.co/mCPvQWt9/ezgif-43009de2c03d4907.gif" alt="Modern UI Preview" width="80%">
+  <img src="https://github.com/user-attachments/assets/f0cd4bff-df38-4d84-a2f7-09dedb7265f0" alt="Modern UI Preview" width="80%">
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/b5KZnZL0/ezgif-470aa4e7ae5d5dec.gif" alt="Function Preview" width="80%">
+  <img src="https://github.com/user-attachments/assets/ba64ec84-fca7-4d91-a5b0-de6957edfacd" alt="Function Preview" width="80%">
 </p>
 
 ---
