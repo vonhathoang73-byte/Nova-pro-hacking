@@ -1,11 +1,11 @@
- <p align="center">đŸ›¸ Nova Multitool</p>
+<p align="center">🛸 Nova Pro Multitool</p>
 
 <p align="center">
   <a href="https://discord.gg/NjfSAAdn6W">
     <img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Server">
   </a>
 </p>
-<p align="center"><b>đŸ€ Join our community Discord for the latest Updates, suggestions, and support!</b></p>
+<p align="center"><b>🚀 Join our community Discord for the latest Updates, suggestions, and support!</b></p>
 
 
 <p align="center">
@@ -19,14 +19,14 @@
 </p>
 
 <p align="center">
-  <b>Navi</b> is a premium, high-performance terminal multitool designed for efficiency, security testing, and OSINT exploration. Featuring a state-of-the-art <b>Modern UI</b> and a vast array of specialized modules.
+  <b>Nova Pro</b> is a premium, high-performance terminal multitool designed for efficiency, security testing, and OSINT exploration. Featuring a state-of-the-art <b>Modern UI</b> and a vast array of specialized modules.
 </p>
 
 ---
 
-## â¡ Core Features
+## ⚡ Core Features
 
-### đŸ“¡ Discord Operations
+### 📡 Discord Operations
 *   **Webhook Suite**: High-speed **Spammer** and instant **Deleter** for webhook management.
 *   **Account Suite**: 
     *   **Token Tools**: Info extractor, Nuker, Login automator, and Status rotator.
@@ -37,7 +37,7 @@
     *   **Server Cloner**: Perfectly replicate server structures (channels, roles, etc.).
     *   **Selfbot**: Advanced features like Nitro sniping and DM logging.
 
-### đŸ” OSINT & Intelligence
+### 🔍 OSINT & Intelligence
 *   **Network Mapping**: High-precision **Port Scanner**, **Whois Lookup**, and **DNS Resolver**.
 *   **Target Intelligence**: 
     *   **Dox Tracker & Creator**: Comprehensive person-of-interest mapping.
@@ -45,7 +45,7 @@
     *   **Metadata Scan**: Deep analysis of file metadata (Exif, etc.).
 *   **IP Tools**: Advanced **IP Grabber** and high-frequency **Pinger**.
 
-### đŸ’€ Exploitation & Builders
+### 💀 Exploitation & Builders
 *   **Multi-Builder GUI**: A centralized interface for generating custom stubs:
     *   **Discord RAT**: Full remote access with Discord-based C2, persistence, and embed responses.
     *   **Recovery Tool**: Blue-themed GUI for browser data and token extraction.
@@ -56,22 +56,22 @@
     *   **DDoS Protocol**: Integrated Layer 4 and Layer 7 attack simulations.
     *   **SQL Scanner**: Automated vulnerability detection.
 
-### đŸ›¡ï¸ Security & Utilities
+### 🛡️ Security & Utilities
 *   **Obfuscator V2**: Professional-grade Python obfuscation with XOR encryption and Anti-Print protection.
 *   **Web Cloner**: Instant local cloning of any website.
 *   **Cryptography**: Base64 Codec and high-entropy Password Generator.
 *   **QR Generator**: Custom QR code creation for payloads or links.
 
-### đŸ® Game Suite (Roblox)
+### 🎮 Game Suite (Roblox)
 *   **Intel**: Detailed User, Cookie, and Group information extractors.
 *   **Control**: Automated Cookie Login and high-speed Asset Downloader.
 
-### đŸ­ Simulation Modules
+### 🎭 Simulation Modules
 *   **Faker Suite**: 16+ modules for simulating various scenarios (Fake Nitro, Identity, Wallets, etc.) for demonstration or educational purposes.
 
 ---
 
-## đŸ“¸ Interface Preview
+## 📸 Interface Preview
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f0cd4bff-df38-4d84-a2f7-09dedb7265f0" alt="Modern UI Preview" width="80%">
@@ -83,8 +83,8 @@
 
 ---
 
-## đŸ¨ Professional Themes
-Navi offers a variety of themes to suit your aesthetic, including the new **Modern** series:
+## 🎨 Professional Themes
+Nova Pro offers a variety of themes to suit your aesthetic, including the new **Modern** series:
 
 <p align="center">
   <img src="https://i.ibb.co/35hcVSy4/image1.png" width="24%" />
@@ -97,7 +97,7 @@ Navi offers a variety of themes to suit your aesthetic, including the new **Mode
 
 ---
 
-## đŸ› ï¸ Installation
+## 🛠️ Installation
 
 ### Prerequisites
 - Python 3.9 or higher installed.
@@ -106,7 +106,7 @@ Navi offers a variety of themes to suit your aesthetic, including the new **Mode
 ### Quick Start
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/vonhathoang73-byte/Nova-pro-hacking.git
+    git clone [https://github.com/vonhathoang73-byte/Nova-pro-hacking.git](https://github.com/vonhathoang73-byte/Nova-pro-hacking.git)
     cd Nova-pro-hacking
     ```
 
@@ -121,15 +121,16 @@ Navi offers a variety of themes to suit your aesthetic, including the new **Mode
 
 ---
 
-## â ï¸ Disclaimer
-This tool is developed for **educational and ethical security testing purposes only**. The developer is not responsible for any misuse or damage caused by this application. Use Navi responsibly and within legal boundaries.
+## ⚠️ Disclaimer
+This tool is developed for **educational and ethical security testing purposes only**. The developer is not responsible for any misuse or damage caused by this application. Use Nova Pro responsibly and within legal boundaries.
 
 ---
 
-## đŸ”— Stay Connected
+## 🔗 Stay Connected
 - **Main Developer**: [glockinhand](https://github.com/glockinhand)
 - **Community Discord**: [Join the Server](https://discord.com/invite/4DFNP2VJKPW)
 
 <p align="center">
   <i>"Present Day, Present Time... Hahaha!"</i>
 </p>
+
