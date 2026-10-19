@@ -1,3 +1,11 @@
+--[[
+    ============================================================
+    NHẬT HOÀNG KEY SYSTEM - Chilli Hub
+    Prefix key: NhatHoang-<ddmmyyyy>  (ngày theo GMT+7)
+    Ví dụ: NhatHoang-19102026
+    ============================================================
+]]
+
 -- ================== Services ==================
 local TweenService = game:GetService("TweenService")
 local RunService   = game:GetService("RunService")
@@ -14,15 +22,15 @@ local ICON         = "rbxassetid://99761773347476"
 local SAVE_FILE    = "chilli"
 local REMOTE_URL   = "https://raw.githubusercontent.com/longdepzai297-stack/Tlonghuba/refs/heads/main/chilliv5.lua"
 
+-- Prefix key: KHÔNG dấu, KHÔNG space (vì input bị gsub "%s+" xoá space)
+local KEY_PREFIX = "NhatHoang-"
+
 -- ================== Ngày hôm nay (GMT+7) ==================
 local function getToday()
     local d = os.date("*t", os.time() + 7 * 60 * 60)
     return string.format("%02d%02d%04d", d.day, d.month, d.year)
 end
 local TODAY = getToday()
-
--- Prefix key: KHÔNG dấu, KHÔNG space (vì input bị gsub "%s+" xoá space)
-local KEY_PREFIX = "NhatHoang-"
 
 -- ================== Tải script từ xa ==================
 local function loadRemote()
@@ -55,7 +63,7 @@ end
 local I18N = {
     VI = {
         Title             = "NHẬT HOÀNG KEY SYSTEM - Chilli Hub",
-        Placeholder       = "Nhập Key xác thực vào đây...",
+        Placeholder       = "Nhập Key xác thực vào đây... (VD: NhatHoang-19102026)",
         GetKey            = "🔗 LẤY LINK KEY",
         CheckKey          = "✔ KIỂM TRA KEY",
         Checking          = "⏳ Đang duyệt...",
@@ -76,7 +84,7 @@ local I18N = {
     },
     EN = {
         Title             = "NHAT HOANG KEY SYSTEM - Chilli Hub",
-        Placeholder       = "Enter verification key here...",
+        Placeholder       = "Enter verification key... (e.g. NhatHoang-19102026)",
         GetKey            = "🔗 GET KEY LINK",
         CheckKey          = "✔ CHECK KEY",
         Checking          = "⏳ Checking...",
@@ -162,7 +170,7 @@ langBtn.TextColor3 = Color3.fromRGB(255, 215, 100)
 langBtn.TextSize = 12
 langBtn.Font = Enum.Font.GothamBold
 langBtn.Parent = main
-local lc = Instance.new("UICorner") lc.CornerRadius = UDim.new(0,6) lc.Parent = langBtn
+local lc = Instance.new("UICorner") lc.CornerRadius = UDim.new(0, 6) lc.Parent = langBtn
 
 -- Ô nhập key
 local keyBox = Instance.new("TextBox")
@@ -177,8 +185,8 @@ keyBox.TextSize = 13
 keyBox.Font = Enum.Font.GothamMedium
 keyBox.ClearTextOnFocus = false
 keyBox.Parent = main
-local kc = Instance.new("UICorner") kc.CornerRadius = UDim.new(0,6) kc.Parent = keyBox
-local ks = Instance.new("UIStroke") ks.Color = Color3.fromRGB(40,30,60) ks.Thickness = 1 ks.Parent = keyBox
+local kc = Instance.new("UICorner") kc.CornerRadius = UDim.new(0, 6) kc.Parent = keyBox
+local ks = Instance.new("UIStroke") ks.Color = Color3.fromRGB(40, 30, 60) ks.Thickness = 1 ks.Parent = keyBox
 
 -- Hàng nút
 local row = Instance.new("Frame")
@@ -187,6 +195,7 @@ row.Position = UDim2.new(0, 12, 0, 78)
 row.BackgroundTransparency = 1
 row.Parent = main
 
+-- Nút GET KEY
 local getBtn = Instance.new("TextButton")
 getBtn.Size = UDim2.new(0.5, -4, 1, 0)
 getBtn.BackgroundColor3 = Color3.fromRGB(20, 15, 30)
@@ -196,8 +205,9 @@ getBtn.TextSize = 12
 getBtn.Font = Enum.Font.GothamBold
 getBtn.AutoButtonColor = false
 getBtn.Parent = row
-local gk = Instance.new("UICorner") gk.CornerRadius = UDim.new(0,6) gk.Parent = getBtn
+local gk = Instance.new("UICorner") gk.CornerRadius = UDim.new(0, 6) gk.Parent = getBtn
 
+-- Nút CHECK KEY
 local chkBtn = Instance.new("TextButton")
 chkBtn.Size = UDim2.new(0.5, -4, 1, 0)
 chkBtn.Position = UDim2.new(0.5, 4, 0, 0)
@@ -208,7 +218,7 @@ chkBtn.TextSize = 12
 chkBtn.Font = Enum.Font.GothamBold
 chkBtn.AutoButtonColor = false
 chkBtn.Parent = row
-local ck = Instance.new("UICorner") ck.CornerRadius = UDim.new(0,6) ck.Parent = chkBtn
+local ck = Instance.new("UICorner") ck.CornerRadius = UDim.new(0, 6) ck.Parent = chkBtn
 
 -- Thanh trạng thái
 local statusFrame = Instance.new("Frame")
@@ -216,7 +226,7 @@ statusFrame.Size = UDim2.new(1, -24, 0, 24)
 statusFrame.Position = UDim2.new(0, 12, 0, 112)
 statusFrame.BackgroundColor3 = Color3.fromRGB(16, 12, 28)
 statusFrame.Parent = main
-local sc = Instance.new("UICorner") sc.CornerRadius = UDim.new(0,6) sc.Parent = statusFrame
+local sc = Instance.new("UICorner") sc.CornerRadius = UDim.new(0, 6) sc.Parent = statusFrame
 
 local statusLbl = Instance.new("TextLabel")
 statusLbl.Size = UDim2.new(1, -12, 1, 0)
@@ -235,8 +245,8 @@ dcFrame.Size = UDim2.new(1, -24, 0, 38)
 dcFrame.Position = UDim2.new(0, 12, 0, 142)
 dcFrame.BackgroundColor3 = Color3.fromRGB(20, 16, 36)
 dcFrame.Parent = main
-local dcc = Instance.new("UICorner") dcc.CornerRadius = UDim.new(0,8) dcc.Parent = dcFrame
-local dcs = Instance.new("UIStroke") dcs.Color = Color3.fromRGB(88,101,242) dcs.Parent = dcFrame
+local dcc = Instance.new("UICorner") dcc.CornerRadius = UDim.new(0, 8) dcc.Parent = dcFrame
+local dcs = Instance.new("UIStroke") dcs.Color = Color3.fromRGB(88, 101, 242) dcs.Parent = dcFrame
 
 local dcIcon = Instance.new("ImageLabel")
 dcIcon.Size = UDim2.new(0, 24, 0, 24)
@@ -244,7 +254,7 @@ dcIcon.Position = UDim2.new(0, 7, 0.5, -12)
 dcIcon.BackgroundColor3 = Color3.fromRGB(88, 101, 242)
 dcIcon.Image = ICON
 dcIcon.Parent = dcFrame
-local dci = Instance.new("UICorner") dci.CornerRadius = UDim.new(0,6) dci.Parent = dcIcon
+local dci = Instance.new("UICorner") dci.CornerRadius = UDim.new(0, 6) dci.Parent = dcIcon
 
 local dcTitle = Instance.new("TextLabel")
 dcTitle.Size = UDim2.new(0, 200, 0, 16)
@@ -277,7 +287,7 @@ dcCopy.TextColor3 = Color3.fromRGB(255, 255, 255)
 dcCopy.TextSize = 11
 dcCopy.Font = Enum.Font.GothamBold
 dcCopy.Parent = dcFrame
-local dccp = Instance.new("UICorner") dccp.CornerRadius = UDim.new(0,6) dccp.Parent = dcCopy
+local dccp = Instance.new("UICorner") dccp.CornerRadius = UDim.new(0, 6) dccp.Parent = dcCopy
 
 -- Frame TikTok
 local ttFrame = Instance.new("Frame")
@@ -285,8 +295,8 @@ ttFrame.Size = UDim2.new(1, -24, 0, 38)
 ttFrame.Position = UDim2.new(0, 12, 0, 186)
 ttFrame.BackgroundColor3 = Color3.fromRGB(20, 16, 36)
 ttFrame.Parent = main
-local ttc = Instance.new("UICorner") ttc.CornerRadius = UDim.new(0,8) ttc.Parent = ttFrame
-local tts = Instance.new("UIStroke") tts.Color = Color3.fromRGB(254,44,85) tts.Parent = ttFrame
+local ttc = Instance.new("UICorner") ttc.CornerRadius = UDim.new(0, 8) ttc.Parent = ttFrame
+local tts = Instance.new("UIStroke") tts.Color = Color3.fromRGB(254, 44, 85) tts.Parent = ttFrame
 
 local ttIcon = Instance.new("ImageLabel")
 ttIcon.Size = UDim2.new(0, 24, 0, 24)
@@ -294,7 +304,7 @@ ttIcon.Position = UDim2.new(0, 8, 0.5, -12)
 ttIcon.BackgroundColor3 = Color3.fromRGB(20, 16, 36)
 ttIcon.Image = ICON
 ttIcon.Parent = ttFrame
-local tti = Instance.new("UICorner") tti.CornerRadius = UDim.new(0,6) tti.Parent = ttIcon
+local tti = Instance.new("UICorner") tti.CornerRadius = UDim.new(0, 6) tti.Parent = ttIcon
 
 local ttTitle = Instance.new("TextLabel")
 ttTitle.Size = UDim2.new(0, 200, 0, 16)
@@ -327,7 +337,7 @@ ttCopy.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttCopy.TextSize = 11
 ttCopy.Font = Enum.Font.GothamBold
 ttCopy.Parent = ttFrame
-local ttcp = Instance.new("UICorner") ttcp.CornerRadius = UDim.new(0,6) ttcp.Parent = ttCopy
+local ttcp = Instance.new("UICorner") ttcp.CornerRadius = UDim.new(0, 6) ttcp.Parent = ttCopy
 
 -- ================== Hàm phụ trợ ==================
 
@@ -393,6 +403,7 @@ langBtn.MouseButton1Click:Connect(function()
     refreshTexts()
 end)
 
+-- Copy Discord + gửi RPC mở app
 dcCopy.MouseButton1Click:Connect(function()
     clickAnim(dcCopy)
     copyText(DISCORD_LINK)
@@ -421,6 +432,7 @@ dcCopy.MouseButton1Click:Connect(function()
     end)
 end)
 
+-- Copy TikTok
 ttCopy.MouseButton1Click:Connect(function()
     clickAnim(ttCopy)
     copyText(TIKTOK_LINK)
@@ -435,6 +447,7 @@ ttCopy.MouseButton1Click:Connect(function()
     end)
 end)
 
+-- Copy link web lấy key
 getBtn.MouseButton1Click:Connect(function()
     clickAnim(getBtn)
     copyText(KEY_LINK)
@@ -449,7 +462,7 @@ getBtn.MouseButton1Click:Connect(function()
     end)
 end)
 
--- Nút CHECK KEY
+-- ================== CHECK KEY (đã fix bug pattern) ==================
 local checking = false
 chkBtn.MouseButton1Click:Connect(function()
     if checking then return end
@@ -461,22 +474,27 @@ chkBtn.MouseButton1Click:Connect(function()
     statusLbl.Text = I18N[LANG].CheckingStatus
     task.wait(0.35)
 
+    -- Xoá mọi khoảng trắng, so sánh plain text (tham số thứ 3 = true)
     local input = string.gsub(keyBox.Text, "%s+", "")
-    if input:find(KEY_PREFIX .. TODAY) then
-        -- Hợp lệ
+    local expected = KEY_PREFIX .. TODAY
+
+    if input:find(expected, 1, true) then
+        -- ===== HỢP LỆ =====
         statusFrame.BackgroundColor3 = Color3.fromRGB(15, 40, 20)
         statusLbl.TextColor3 = Color3.fromRGB(80, 220, 100)
         statusLbl.Text = I18N[LANG].ValidStatus
         chkBtn.Text = I18N[LANG].SuccessBtn
         chkBtn.BackgroundColor3 = Color3.fromRGB(40, 120, 60)
+
         if writefile then
             pcall(function() writefile(SAVE_FILE, TODAY) end)
         end
+
         loadRemote()
         task.wait(0.1)
         closeGui()
     else
-        -- Không hợp lệ
+        -- ===== KHÔNG HỢP LỆ =====
         checking = false
         chkBtn.Text = I18N[LANG].CheckKey
         statusFrame.BackgroundColor3 = Color3.fromRGB(40, 10, 20)
