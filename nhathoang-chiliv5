@@ -20,7 +20,7 @@ local DISCORD_LINK = "https://discord.gg/gdxcTDbb"
 local TIKTOK_LINK  = "https://www.tiktok.com/@royah36"
 local ICON         = "rbxassetid://99761773347476"
 local SAVE_FILE    = "chilli"
-local REMOTE_URL   = "https://raw.githubusercontent.com/longdepzai297-stack/Tlonghuba/refs/heads/main/chilliv5.lua"
+local REMOTE_URL   = "https://raw.githubusercontent.com/hanniii1/Loader/refs/heads/main/BFLoader.lua"
 
 -- Prefix key: KHÔNG dấu, KHÔNG space (vì input bị gsub "%s+" xoá space)
 local KEY_PREFIX = "NhatHoang-"
@@ -63,7 +63,7 @@ end
 local I18N = {
     VI = {
         Title             = "NHẬT HOÀNG KEY SYSTEM - Chilli Hub",
-        Placeholder       = "Nhập Key xác thực vào đây... (VD: NhatHoang-19102026)",
+        Placeholder       = "Nhập Key xác thực vào đây... ",
         GetKey            = "🔗 LẤY LINK KEY",
         CheckKey          = "✔ KIỂM TRA KEY",
         Checking          = "⏳ Đang duyệt...",
