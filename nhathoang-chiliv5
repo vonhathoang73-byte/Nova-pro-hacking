@@ -20,7 +20,7 @@ local DISCORD_LINK = "https://discord.gg/gdxcTDbb"
 local TIKTOK_LINK  = "https://www.tiktok.com/@royah36"
 local ICON         = "rbxassetid://99761773347476"
 local SAVE_FILE    = "chilli"
-local REMOTE_URL   = "https://raw.githubusercontent.com/hanniii1/Loader/refs/heads/main/BFLoader.lua"
+local REMOTE_URL   = "https://raw.githubusercontent.com/ronnei/hihi/refs/heads/main/chillihubv5.lua"
 
 -- Prefix key: KHÔNG dấu, KHÔNG space (vì input bị gsub "%s+" xoá space)
 local KEY_PREFIX = "NhatHoang-"
